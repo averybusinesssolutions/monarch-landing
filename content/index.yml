@@ -22,9 +22,9 @@ hero:
 section:
   title: 'Better [data]{.text-primary}. Better [workflows]{.text-primary}. Better [care]{.text-primary}.'
   description: 'Transform your organization with data-driven insights and intelligent workflow optimization.'
-  images:
-    mobile: '/images/dark/dark-logo.svg'
-    desktop: '/images/dark/dark-logo.svg'
+  image:
+    dark: '/images/dark/dark-logo.svg'
+    light: '/images/light/logo.svg'
   features:
     - title: Optimize decisions with trusted data
       description: Use analytics to surface what matters most. We turn fragmented operational data into clear, actionable insights—so teams spend less time guessing and more time improving outcomes.

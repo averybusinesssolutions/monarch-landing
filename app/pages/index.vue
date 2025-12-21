@@ -56,16 +56,12 @@ useSeoMeta({
           class="sm:*:leading-11"
         />
       </template>
-      <img
-        :src="page.section.images.desktop"
-        :alt="page.section.title"
-        class="hidden lg:block 2xl:hidden left-0 w-full max-w-2xl"
-      >
-      <img
-        :src="page.section.images.mobile"
-        :alt="page.section.title"
-        class="block lg:hidden 2xl:block 2xl:w-full 2xl:max-w-2xl"
-      >
+      <UColorModeImage
+          light="/images/light/logo.svg"
+          dark="/images/dark/dark-logo.svg"
+          style="width: 100%; height: auto;"
+        />
+
     </UPageSection>
 
     <USeparator :ui="{ border: 'border-primary/30' }" />
