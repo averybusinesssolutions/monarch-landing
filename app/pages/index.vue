@@ -100,7 +100,7 @@ useSeoMeta({
 
       </template>
 
-      <UPricingPlans scale>
+      <!-- <UPricingPlans scale>
         <UPricingPlan
           v-for="(plan, index) in page.pricing.plans"
           :key="index"
@@ -115,7 +115,7 @@ useSeoMeta({
           :features="plan.features"
           :button="plan.button"
         />
-      </UPricingPlans>
+      </UPricingPlans> -->
     </UPageSection>
 
 
