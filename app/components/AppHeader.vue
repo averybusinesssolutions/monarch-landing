@@ -2,7 +2,15 @@
 const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
-const items = computed(() => [{])
+const items = computed(() => [{
+  label: 'Services',
+  to: '#features',
+  active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
+}, {
+  label: 'Pricing',
+  to: '#pricing',
+  active: activeHeadings.value.includes('pricing')
+}])
 
 nuxtApp.hooks.hookOnce('page:finish', () => {
   updateHeadings([
@@ -20,7 +28,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       </NuxtLink>
     </template>
 
-    <template #right>
+    <!-- <template #right>
       <UNavigationMenu
         :items="items"
         variant="link"
@@ -36,6 +44,6 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         orientation="vertical"
         class="-mx-2.5"
       />
-    </template>
+    </template> -->
   </UHeader>
 </template>
