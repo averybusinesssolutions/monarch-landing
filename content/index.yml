@@ -12,13 +12,6 @@ hero:
       to: https://calendly.com/scott-averybusiness/30min
       target: _blank
       size: xl
-    - label: Learn more
-      icon: i-lucide-book-text
-      size: xl
-      color: neutral
-      variant: outline
-      to: /services
-      target: _blank
 section:
   title: 'Better [data]{.text-primary}. Better [workflows]{.text-primary}. Better [care]{.text-primary}.'
   description: 'Transform your organization with data-driven insights and intelligent workflow optimization.'
