@@ -75,38 +75,22 @@ pricing:
   plans:
     - title: Data Assessment
       description: Assess your data systems, workflows, and reporting capabilities to find opportunities for improvement.
-      price: $500
       features:
         - Comprehensive data audit to identify gaps
         - Workflow analysis to pinpoint bottlenecks 
         - Data quality monitoring to ensure accuracy
-      button:
-        label: Buy now
-        color: neutral
-        variant: outline
-        to: '#'
     - title: Custom Report
       description: Get tailored reports that provide actionable insights to optimize your operations and improve outcomes.
-      price: $2000 - $5000
       features:
         - Everything in Data assessment
         - Custom dashboard design tailored to your needs
         - Advanced analytics for deeper insights
-      button:
-        label: Buy now
-        variant: subtle
-        to: '#'
     - title: Full Analytics Solution
       description: End-to-end analytics solution including data integration, dashboarding, and predictive analytics.
-      price: Contact us
       features:
         - Everything in Custom Report
         - Full data pipeline setup and integration
         - Ongoing support and optimization
-      button:
-        label: Contact us
-        color: primary
-        to: '#'
 cta:
   title: Ready to make data work for your organization?
   description: We help organizations unlock insights, streamline operations, and drive results using trusted data.
